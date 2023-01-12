@@ -4,7 +4,6 @@ import numpy as np
 import os
 import sys
 
-
 # Visualize point cloud
 print("Load a ply point cloud, print it, and render it")
 pcd = o3d.io.read_point_cloud("will_cloud.ply")
